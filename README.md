@@ -1,23 +1,6 @@
 ﻿# Web_Application_Firewall
- ![image](https://github.com/Pratham-verma/Web_Application_Firewall/assets/89769653/b094c5d1-e6bb-43ed-b0ca-9e140aeb7914)
 
-This project is a Web Application Firewall (WAF) designed to protect web applications from malicious requests. By leveraging **Machine Learning** , specifically Logistic Regression, the WAF can distinguish between good (legitimate) and bad (malicious) requests. The solution involves a proxy server that intercepts incoming requests, evaluates them using a trained ML model, and determines whether to allow or block the request based on the prediction.
-
-Project Video : [youtube](https://youtu.be/qSO4cmMWiCg)
-
-## Table of Contents
-
-| Section                                           | Description                                                             |
-|---------------------------------------------------|-------------------------------------------------------------------------|
-| [Overview](#overview)                             | Introduction to the Web Application Firewall (WAF) project.              |
-| [Features](#features)                             | Key features of the WAF including proxy server, ML model, and logging.   |
-| [Architecture](#architecture)                     | Overview of the components and workflow of the WAF.                     |
-| [Tech Stack](#tech-stack)                         | Technologies and tools used in the project.                             |
-| [Installation](#installation)                     | Step-by-step guide to install the WAF.                                  |
-| [Usage](#usage)                                   | Instructions on how to run and use the WAF.                             |
-| [Dataset](#dataset)                               | Details on the dataset used for training the ML model.                  |
-| [Machine Learning Model](#machine-learning-model) | Information on the ML model and training process.                       |
-| [Contributing](#contributing)                     | Guidelines for contributing to the project.                             |                             |
+This project is a Web Application Firewall (WAF) designed to protect web applications from malicious requests. By leveraging **Machine Learning** , specifically Logistic Regression, the WAF can distinguish between good (legitimate) and bad (malicious) requests. The solution involves a proxy server that intercepts incoming requests, evaluates them using a trained ML model, and determines whether to allow or block the request based on the prediction.                           |
 
 ## Overview
 
@@ -26,18 +9,8 @@ Web Application Firewalls (WAFs) are critical components for protecting web appl
 ## Features
 
 - **Proxy Server**: Intercepts incoming HTTP requests and forwards them to the web server if deemed safe.
-- **Machine Learning Model**: Logistic Regression model trained to detect malicious requests.
 - **Real-Time Request Analysis**: Analyzes and classifies requests in real-time.
 
-## Architecture
-
-The architecture of the WAF is composed of the following components:
-
-1. **Proxy Server**: Acts as an intermediary between the client and the web server.
-2. **Request Logger**: Logs incoming requests for analysis and model training.
-3. **Feature Extractor**: Extracts relevant features from HTTP requests for ML model input.
-4. **Logistic Regression Model**: Trained model to classify requests as good or bad.
-5. **Decision Engine**: Uses the model's prediction to allow or block the request.
 
 ## Tech Stack
 
@@ -48,13 +21,6 @@ The architecture of the WAF is composed of the following components:
 - **Logging**: Python's logging module
 - **Network Security**: Integration of security best practices and protocols
 - **Web Security**: Implementing security measures to protect against these vulnerabilities. 
-
-## Installation
-
- **Clone the Repository**:
-   ```sh
-   git clone https://github.com/Pratham-verma/Web_Application_Firewall.git
-   ```
 
 ## Usage
 
