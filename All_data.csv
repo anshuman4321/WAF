@@ -1,0 +1,101 @@
+path,body,class
+/search,feedback=Great+service!,0
+/search,user_id=5,0
+/cart,theme=dark,0
+/profile,email=test@example.com&password=123456,0
+/cart,q=laptop,0
+/register,message=Hello+team,0
+/register,user=admin' OR 1=1--,1
+/profile,product_id=123&quantity=2,0
+/blog,q=laptop,0
+/home,product_id=123&quantity=2,0
+/search,'; EXEC xp_cmdshell('dir'); --,1
+/checkout,q=laptop,0
+/settings,email=test@example.com&password=123456,0
+/home,theme=dark,0
+/blog,feedback=Great+service!,0
+/upload,theme=dark,0
+/admin,message=Hello+team,0
+/cart,1; SELECT * FROM passwords,1
+/settings,q=<script>alert(1)</script>,1
+/product,theme=dark,0
+/search,title=Hello+World&content=This+is+a+post,0
+/blog,OR '1'='1',1
+/blog,message=Hello+team,0
+/product,title=Hello+World&content=This+is+a+post,0
+/blog,theme=dark,0
+/product,message=Hello+team,0
+/profile,feedback=Great+service!,0
+/login,user=admin' OR 1=1--,1
+/settings,user_id=5,0
+/blog,'; EXEC xp_cmdshell('dir'); --,1
+/search,email=test@example.com&password=123456,0
+/blog,username=user&password=pass123,0
+/upload,q=laptop,0
+/contact,';shutdown--,1
+/checkout,DROP TABLE users;,1
+/profile,' UNION SELECT NULL--,1
+/admin,user=admin' OR 1=1--,1
+/product,1; SELECT * FROM passwords,1
+/register,q=laptop,0
+/home,1; SELECT * FROM passwords,1
+/cart,<img src=x onerror=alert(1)>,1
+/cart,message=Hello+team,0
+/faq,product_id=123&quantity=2,0
+/profile,q=laptop,0
+/upload,product_id=123&quantity=2,0
+/settings,<img src=x onerror=alert(1)>,1
+/blog,' UNION SELECT NULL--,1
+/search,q=<script>alert(1)</script>,1
+/upload,';shutdown--,1
+/settings,q=<script>alert(1)</script>,1
+/admin,1; SELECT * FROM passwords,1
+/login,username=user&password=pass123,0
+/blog,OR '1'='1',1
+/home,';shutdown--,1
+/cart,user=admin' OR 1=1--,1
+/admin,user_id=5,0
+/checkout,1; SELECT * FROM passwords,1
+/register,';shutdown--,1
+/faq,admin=1; rm -rf /,1
+/search,'; EXEC xp_cmdshell('dir'); --,1
+/upload,user_id=5,0
+/settings,first_name=John&last_name=Doe,0
+/upload,feedback=Great+service!,0
+/product,user=admin' OR 1=1--,1
+/settings,';shutdown--,1
+/faq,user_id=5,0
+/product,admin=1; rm -rf /,1
+/faq,q=<script>alert(1)</script>,1
+/cart,email=test@example.com&password=123456,0
+/profile,OR '1'='1',1
+/settings,'; EXEC xp_cmdshell('dir'); --,1
+/profile,<img src=x onerror=alert(1)>,1
+/profile,'; EXEC xp_cmdshell('dir'); --,1
+/home,username=user&password=pass123,0
+/register,' UNION SELECT NULL--,1
+/upload,admin=1; rm -rf /,1
+/settings,admin=1; rm -rf /,1
+/product,1; SELECT * FROM passwords,1
+/profile,first_name=John&last_name=Doe,0
+/search,title=Hello+World&content=This+is+a+post,0
+/admin,admin=1; rm -rf /,1
+/checkout,<img src=x onerror=alert(1)>,1
+/upload,product_id=123&quantity=2,0
+/checkout,'; EXEC xp_cmdshell('dir'); --,1
+/product,product_id=123&quantity=2,0
+/home,product_id=123&quantity=2,0
+/contact,user_id=5,0
+/home,q=<script>alert(1)</script>,1
+/cart,product_id=123&quantity=2,0
+/search,<img src=x onerror=alert(1)>,1
+/register,'; EXEC xp_cmdshell('dir'); --,1
+/blog,theme=dark,0
+/blog,user=admin' OR 1=1--,1
+/checkout,OR '1'='1',1
+/cart,1; SELECT * FROM passwords,1
+/faq,title=Hello+World&content=This+is+a+post,0
+/register,' UNION SELECT NULL--,1
+/faq,DROP TABLE users;,1
+/faq,title=Hello+World&content=This+is+a+post,0
+/register,title=Hello+World&content=This+is+a+post,0

@@ -1,0 +1,117 @@
+"GET /home.html HTTP/1.1",0
+"POST /contact-form HTTP/1.1",0
+"GET /products?id=3 HTTP/1.1",0
+"GET /about-us HTTP/1.1",0
+"POST /submit-comment HTTP/1.1",0
+"GET /blog/post?id=12&name=seo-tips HTTP/1.1",0
+
+
+"GET /login.php?user=admin'-- HTTP/1.1",1
+"GET /search?q=<script>alert('xss')</script> HTTP/1.1",1
+"GET /admin?cmd=rm+-rf+/ HTTP/1.1",1
+"POST /login HTTP/1.1\nusername=admin';--&password=",1
+"GET /api?user=1 UNION SELECT password FROM users HTTP/1.1",1
+"GET /?q=' OR '1'='1 HTTP/1.1",1
+"GET /index.php?page=../../etc/passwd HTTP/1.1",1
+"GET /config.php.bak HTTP/1.1",1
+
+
+
+
+"GET /home HTTP/1.1",0
+"POST /submit-form HTTP/1.1",0
+"GET /index.html HTTP/1.1",0
+"GET /about HTTP/1.1",0
+"GET /contact HTTP/1.1",0
+"GET /products?id=12 HTTP/1.1",0
+"GET /shop?category=books HTTP/1.1",0
+"POST /login HTTP/1.1",0
+"POST /register HTTP/1.1",0
+"GET /search?q=firewalls HTTP/1.1",0
+"GET /blog/article?id=20 HTTP/1.1",0
+"GET /page.php?user=admin'-- HTTP/1.1",1
+"GET /search.php?q=<script>alert(1)</script> HTTP/1.1",1
+"GET /product?id=1+OR+1=1 HTTP/1.1",1
+"GET /admin?cmd=rm+-rf+/ HTTP/1.1",1
+"GET /index.php?page=../../etc/passwd HTTP/1.1",1
+"GET /config.php~ HTTP/1.1",1
+"POST /submit?user=1';DROP TABLE users;-- HTTP/1.1",1
+"GET /login?username=admin'-- HTTP/1.1",1
+"GET /register.php?name=<img+src=x+onerror=alert(1)> HTTP/1.1",1
+"GET /test.php?id=' OR '1'='1 HTTP/1.1",1
+"GET /admin HTTP/1.1",0
+"GET /profile/view?id=50 HTTP/1.1",0
+"POST /update-profile HTTP/1.1",0
+"GET /files/image.jpg HTTP/1.1",0
+"POST /comment HTTP/1.1",0
+"GET /?user=1+UNION+SELECT+*+FROM+users HTTP/1.1",1
+"GET /backup.tar.gz HTTP/1.1",1
+"GET /file=../../../etc/passwd HTTP/1.1",1
+"POST /auth HTTP/1.1",0
+"GET /dashboard HTTP/1.1",0
+"GET /invoice/download?id=123 HTTP/1.1",0
+"POST /payment/process HTTP/1.1",0
+"GET /account/delete?id=1' OR '1'='1 HTTP/1.1",1
+"GET /config.bak HTTP/1.1",1
+"POST /password-reset HTTP/1.1",0
+"GET /webshell.php?cmd=ls HTTP/1.1",1
+"GET /cgi-bin/test.cgi?arg=<script> HTTP/1.1",1
+"POST /upload HTTP/1.1",0
+"GET /images/logo.png HTTP/1.1",0
+"GET /admin.php?user=admin&pass=pass'-- HTTP/1.1",1
+"GET /db.php?query=SELECT+*+FROM+users HTTP/1.1",1
+"POST /api/comment HTTP/1.1",0
+"GET /login?next=/admin HTTP/1.1",0
+"GET /api/data?id=' OR 1=1-- HTTP/1.1",1
+"GET /files.php?name=../../etc/passwd HTTP/1.1",1
+"GET /page=contact.html HTTP/1.1",0
+"GET /news?id=12 HTTP/1.1",0
+"GET /old-backup.zip HTTP/1.1",1
+"GET /include/config.php HTTP/1.1",1
+"GET /js/app.js HTTP/1.1",0
+"GET /css/styles.css HTTP/1.1",0
+"POST /api/submit-form HTTP/1.1",0
+"GET /admin?page=<script>alert('XSS')</script> HTTP/1.1",1
+"GET /products?q=' OR 'a'='a HTTP/1.1",1
+"GET /index.html HTTP/1.1",0
+"POST /signup HTTP/1.1",0
+"GET /verify-email?token=abc123 HTTP/1.1",0
+"GET /logs.php.bak HTTP/1.1",1
+"GET /admin.jsp?username=admin'-- HTTP/1.1",1
+"POST /feedback HTTP/1.1",0
+"GET /downloads?file=../../windows/system32 HTTP/1.1",1
+"GET /reset-password HTTP/1.1",0
+"GET /secure/admin HTTP/1.1",0
+"GET /api/user?email=test@example.com HTTP/1.1",0
+"GET /search?q=<svg/onload=alert(1)> HTTP/1.1",1
+"GET /explore?search=' OR 1=1 -- HTTP/1.1",1
+"GET /robots.txt HTTP/1.1",0
+"GET /api.php?cmd=rm+-rf+/* HTTP/1.1",1
+"GET /?page=contact&lang=<script> HTTP/1.1",1
+"POST /upload.php HTTP/1.1",0
+"GET /home.html HTTP/1.1",0
+"POST /login HTTP/1.1",0
+"GET /info.php~ HTTP/1.1",1
+"GET /cgi-bin/.env HTTP/1.1",1
+"GET /phpmyadmin/index.php HTTP/1.1",1
+"GET /?q=<img src=x onerror=alert(1)> HTTP/1.1",1
+"GET /api/search?q=test HTTP/1.1",0
+"GET /api?sort=desc&limit=10 HTTP/1.1",0
+"GET /settings HTTP/1.1",0
+"POST /change-password HTTP/1.1",0
+"GET /db_backup.sql HTTP/1.1",1
+"GET /?cmd=cat+/etc/passwd HTTP/1.1",1
+"GET /?sort=asc HTTP/1.1",0
+"GET /product-list HTTP/1.1",0
+"GET /admin/config.php HTTP/1.1",1
+"GET /.git/config HTTP/1.1",1
+"GET /api/user/data HTTP/1.1",0
+"POST /order/submit HTTP/1.1",0
+"GET /test?id=1';-- HTTP/1.1",1
+"GET /test.php?user=' OR 1=1-- HTTP/1.1",1
+"GET /index.php?data=<script> HTTP/1.1",1
+"GET /api/v1/products HTTP/1.1",0
+"GET /view?id=15 HTTP/1.1",0
+"GET /admin.php?name=admin&pwd=admin HTTP/1.1",1
+"GET /config/.env HTTP/1.1",1
+
